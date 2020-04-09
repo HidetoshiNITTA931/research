@@ -1,0 +1,26 @@
+# 物体検出の調査
+
+Deep Learning for Generic Object Detection: A Survey : 物体検出全般のサーベイ(日本語訳あり)
+<https://shinya7y.github.io/note/detection/ObjectDetectionSurvey_jp.pdf>
+物体検出にはResion-baseなものとそうでないものがある。後者は前者に比べてFPSが圧倒的だが、
+小さいオブジェクトの検知が苦手。リアルタイムでやる必要がないならResion-baseでいいかも。
+Resion-baseでやるならFasterRCNNになるのかな
+
+道路標識の物体検出についていろんなモデルを試した論文
+<https://www.researchgate.net/profile/Juan_Alvarez-Garcia/publication/326974599_Evaluation_of_Deep_Neural_Networks_for_traffic_sign_detection_systems/links/5bffd5b0a6fdcc1b8d4a6e4c/Evaluation-of-Deep-Neural-Networks-for-traffic-sign-detection-systems.pdf>
+
+mAPのまとめ
+<https://qiita.com/tmtakashi_dist/items/863e1781b5252e453b47>
+
+BBアノテーションツールを比較した記事
+<https://qiita.com/shu-yusa/items/d19ea57e3cf9c4dbdce2>
+
+fine tuning
+<http://cedro3.com/ai/pytorch-ssd/>
+
+SSD pytorch
+<http://cedro3.com/ai/pytorch-ssd/>
+
+YOLOv3 pytorch
+<https://ai-coordinator.jp/yolo-v3-pytorch>
+<https://github.com/ayooshkathuria/pytorch-yolo-v3>
